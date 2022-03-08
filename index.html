@@ -7,16 +7,18 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Belly Button Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Link to CSS libary for custom styling -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-
+<body class= "bg-dark">
+  <!----------- Heading Title --------------->
   <div class="container">
 
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+        <h1 class = "lead">Belly Button Biodiversity Dashboard</h1>
+        <p class = "lead">Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
 
@@ -40,10 +42,12 @@
 
       <div class="col-md-5">
         <div id="bar"></div>
+        <p>Figure 1 shows the number of bacteria cultures found in the top 10 samples for the selected test subject  </p>
       </div>
 
       <div class="col-md-5">
         <div id="gauge"></div>
+        <h2>Notice the trends in belly button washing and counts of bacteria as you change test subjects</h2>
       </div>
 
     </div>
@@ -51,6 +55,7 @@
     <div class="row">
       <div class="col-md-12">
         <div id="bubble"></div>
+        <p>Figure 2 shows the number of bacteria cultures per sample for the selected test subject  </p>
       </div>
     </div>
     
